@@ -32,6 +32,52 @@ Known issues / Roadmap
 Changelog
 =========
 
+4.1.6 (2026-07-01)
+~~~~~~~~~~~~~~~~~~~
+
+**Bugfixes**
+
+- Include the accounting data of company branches and sub-branches in the
+  Accounting SAF-T. The G/L accounts (opening/period balances), G/L entries and
+  balance warnings now cover the export company and its whole ``child_of`` tree
+  (the report is filed per taxpayer at the export company) instead of only the
+  selected company, for both the extraction and real-time extraction methods.
+
+4.1.5 (2026-06-24)
+~~~~~~~~~~~~~~~~~~~
+
+**Bugfixes**
+
+- Preserve an integrated document's ``HashControl`` (SourceBilling=I) in the
+  SAF-T export instead of emitting ``0`` (Despacho n.º 8632/2014: collected
+  documents are exported as-is).
+
+4.1.4 (2026-06-24)
+~~~~~~~~~~~~~~~~~~~
+
+**Bugfixes**
+
+- Report the line ``UnitPrice`` and ``SettlementAmount`` in the company
+  (reporting) currency for invoices issued in a foreign currency. ``UnitPrice``
+  was previously emitted in the document currency and the discount was
+  converted with the exchange rate inverted.
+- Report the SAF-T line ``References`` (origin document and correction reason)
+  on corrective documents, so credit and debit notes can point at the document
+  they correct.
+
+4.1.3 (2026-06-16)
+~~~~~~~~~~~~~~~~~~~
+
+**Improvement**
+
+- Added a 'Blocked' SAF-T element status that freezes the element and is never
+  recomputed. It is set/cleared manually from the invoices and payments list
+  ``Action`` menu, and is released only when the document is cancelled.
+- Exposed the SAF-T element status as an optional column on the invoices and
+  payments lists.
+- Added a list action to recompute the SAF-T element on the spot, without
+  extracting the SAF-T file.
+
 4.1.2 (2025-11-11)
 ~~~~~~~~~~~~~~~~~~~
 **Features**

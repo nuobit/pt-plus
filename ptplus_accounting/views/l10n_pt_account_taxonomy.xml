@@ -8,7 +8,7 @@
         <field name="arch" type="xml">
             <search string="Account Taxonomy">
                 <field name="name" />
-                <field name="account_prefix" />
+                <field name="account_prefix_ids" />
                 <separator />
                 <filter
                     name="reference_micro"
@@ -57,7 +57,7 @@
             <tree decoration-muted="not active">
                 <field name="reference" />
                 <field name="code" />
-                <field name="account_prefix" />
+                <field name="account_prefix_ids" widget="many2many_tags" />
                 <field name="svat_class" />
                 <field name="expected_balance" />
                 <field name="name" />

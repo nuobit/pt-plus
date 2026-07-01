@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-12 11:08+0000\n"
-"PO-Revision-Date: 2026-02-12 11:08+0000\n"
+"POT-Creation-Date: 2026-02-27 22:56+0000\n"
+"PO-Revision-Date: 2026-02-27 22:56+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,18 +17,16 @@ msgstr ""
 
 #. module: ptplus_reports_withholding
 #: model:ir.actions.report,print_report_name:ptplus_reports_withholding.l10n_pt_report_annual_statement_action
-msgid ""
-"'Income Statement ' + "
-"object[0].statement_id.get_period_text().replace('/','_') + '.pdf'"
+msgid "'Income Statement ' + object.get_period_text() + '.pdf'"
 msgstr ""
 
 #. module: ptplus_reports_withholding
 #: model:mail.template,body_html:ptplus_reports_withholding.email_template_annual_statement
 msgid ""
 "<div>\n"
-"                <p>Dear <t t-out=\"object.partner_id.name\"></t>,</p>\n"
+"                <p>Dear <t t-out=\"ctx['partner'].name\"></t>,</p>\n"
 "                <p>Please find attached your\n"
-"                    <t t-out=\"object.statement_id.get_period_text()\"></t>\n"
+"                    <t t-out=\"object.get_period_text()\"></t>\n"
 "                    income and retention statement.</p>\n"
 "                <p>Regards,</p>\n"
 "            </div>\n"
@@ -63,13 +61,13 @@ msgid "Amount"
 msgstr ""
 
 #. module: ptplus_reports_withholding
-#: model:ir.model,name:ptplus_reports_withholding.model_l10n_pt_annual_statement_wizard_line
-msgid "Annual Income Statement Report"
+#: model:ir.model,name:ptplus_reports_withholding.model_l10n_pt_annual_statement_wizard
+msgid "Annual Income Statement"
 msgstr ""
 
 #. module: ptplus_reports_withholding
-#: model:ir.model,name:ptplus_reports_withholding.model_l10n_pt_annual_statement_wizard
-msgid "Annual Income Statement Wizard"
+#: model:ir.model,name:ptplus_reports_withholding.model_l10n_pt_annual_statement_wizard_line
+msgid "Annual Income Statement Line"
 msgstr ""
 
 #. module: ptplus_reports_withholding
@@ -453,13 +451,6 @@ msgid ""
 msgstr ""
 
 #. module: ptplus_reports_withholding
-#. odoo-python
-#: code:addons/ptplus_reports_withholding/wizards/l10n_pt_monthly_statement_wizard.py:0
-#, python-format
-msgid "Invalid rubric code '{code}'. Tag not found."
-msgstr ""
-
-#. module: ptplus_reports_withholding
 #: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_annual_statement_wizard__journal_ids
 #: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_modelo10_statement_wizard__journal_ids
 #: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_modelo30_statement_wizard__journal_ids
@@ -521,6 +512,15 @@ msgstr ""
 #: code:addons/ptplus_reports_withholding/wizards/l10n_pt_mod30_statement_wizard.py:0
 #, python-format
 msgid "Line '{description}' on move {move} has no related withholding tax"
+msgstr ""
+
+#. module: ptplus_reports_withholding
+#. odoo-python
+#: code:addons/ptplus_reports_withholding/wizards/l10n_pt_monthly_statement_wizard.py:0
+#, python-format
+msgid ""
+"Line '{description}' on move {move} is related to tax {tax}. Please fill the"
+" tax's Withholding Code field"
 msgstr ""
 
 #. module: ptplus_reports_withholding
@@ -672,6 +672,7 @@ msgid "Move"
 msgstr ""
 
 #. module: ptplus_reports_withholding
+#: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_annual_statement_wizard__name
 #: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_annual_statement_wizard_line__name
 #: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_modelo10_statement_wizard_line_q4__name
 #: model:ir.model.fields,field_description:ptplus_reports_withholding.field_l10n_pt_modelo10_statement_wizard_line_q5__name
@@ -1280,7 +1281,7 @@ msgstr ""
 
 #. module: ptplus_reports_withholding
 #: model:mail.template,subject:ptplus_reports_withholding.email_template_annual_statement
-msgid "Your {{object.statement_id.get_period_text()}} Income Statement"
+msgid "Your {{object.get_period_text()}} Income Statement"
 msgstr ""
 
 #. module: ptplus_reports_withholding

@@ -513,158 +513,16 @@
         <field name="country_id" ref="base.pt" />
     </record>
     <!-- Stamp Duty -->
-    <data>
-        <record id="tax_tag_is_cd_301" model="account.account.tag">
-            <field name="name">IS [ ] 301</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_302" model="account.account.tag">
-            <field name="name">IS [ ] 302</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_303" model="account.account.tag">
-            <field name="name">IS [ ] 303</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_304" model="account.account.tag">
-            <field name="name">IS [ ] 304</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_305" model="account.account.tag">
-            <field name="name">IS [ ] 305</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_306" model="account.account.tag">
-            <field name="name">IS [ ] 306</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_307" model="account.account.tag">
-            <field name="name">IS [ ] 307</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_308" model="account.account.tag">
-            <field name="name">IS [ ] 308</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_309" model="account.account.tag">
-            <field name="name">IS [ ] 309</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_310" model="account.account.tag">
-            <field name="name">IS [ ] 310</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_311" model="account.account.tag">
-            <field name="name">IS [ ] 311</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_312" model="account.account.tag">
-            <field name="name">IS [ ] 312</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_313" model="account.account.tag">
-            <field name="name">IS [ ] 313</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_314" model="account.account.tag">
-            <field name="name">IS [ ] 314</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_315" model="account.account.tag">
-            <field name="name">IS [ ] 315</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_316" model="account.account.tag">
-            <field name="name">IS [ ] 316</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_317" model="account.account.tag">
-            <field name="name">IS [ ] 317</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_318" model="account.account.tag">
-            <field name="name">IS [ ] 318</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_319" model="account.account.tag">
-            <field name="name">IS [ ] 319</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_320" model="account.account.tag">
-            <field name="name">IS [ ] 320</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_321" model="account.account.tag">
-            <field name="name">IS [ ] 321</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_322" model="account.account.tag">
-            <field name="name">IS [ ] 322</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_323" model="account.account.tag">
-            <field name="name">IS [ ] 323</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_324" model="account.account.tag">
-            <field name="name">IS [ ] 324</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_325" model="account.account.tag">
-            <field name="name">IS [ ] 325</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_326" model="account.account.tag">
-            <field name="name">IS [ ] 326</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_327" model="account.account.tag">
-            <field name="name">IS [ ] 327</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_328" model="account.account.tag">
-            <field name="name">IS [ ] 328</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_398" model="account.account.tag">
-            <field name="name">IS [ ] 398</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-        <record id="tax_tag_is_cd_399" model="account.account.tag">
-            <field name="name">IS [ ] 399</field>
-            <field name="applicability">taxes</field>
-            <field name="country_id" ref="base.pt" />
-        </record>
-    </data>
+    <record id="tax_tag_is_dm_04_07" model="account.account.tag">
+        <field name="name">IS DM [Q04-C07]</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.pt" />
+    </record>
+    <record id="tax_tag_is_dm_04_08" model="account.account.tag">
+        <field name="name">IS DM [Q04-C08]</field>
+        <field name="applicability">taxes</field>
+        <field name="country_id" ref="base.pt" />
+    </record>
 
     <!-- Withholding Tax -->
 
@@ -677,6 +535,11 @@
         </record>
         <record id="tax_tag_rf_dar" model="account.account.tag">
             <field name="name">RF DAR</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.pt" />
+        </record>
+        <record id="tax_tag_rf_dar_base" model="account.account.tag">
+            <field name="name">RF DAR BASE</field>
             <field name="applicability">taxes</field>
             <field name="country_id" ref="base.pt" />
         </record>

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 21:35+0000\n"
-"PO-Revision-Date: 2026-02-22 21:35+0000\n"
+"POT-Creation-Date: 2026-03-04 10:55+0000\n"
+"PO-Revision-Date: 2026-03-04 10:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -117,16 +117,6 @@ msgid ""
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__1_1
-msgid "1.1 - Aquisição onerosa de bens"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__1_2
-msgid "1.2 - Aquisição gratuita de bens, incluindo por usucapião"
-msgstr ""
-
-#. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_income_type_oecd__10
 msgid "10 - Dividendos"
 msgstr ""
@@ -136,21 +126,6 @@ msgstr ""
 msgid ""
 "10 - Empréstimos, incluindo juros, exclusivamente destinados à cobertura de "
 "carência de tesouraria  - CIS Artº 7º nº1 g)"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__10_1
-msgid "10.1 - Garantias - Prazo < 1 ano"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__10_2
-msgid "10.2 - Garantias - Prazo ≥ 1 ano"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__10_3
-msgid "10.3 - Garantias - Sem Prazo / Prazo ≥ 5 anos"
 msgstr ""
 
 #. module: ptplus
@@ -199,38 +174,6 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_income_type_oecd__11
 msgid "11 - Juros ou rendimentos de aplicações de capitais"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__11_1_1
-msgid "11.1.1 - Apostas mútuas"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__11_1_2
-msgid "11.1.2 - Outras apostas"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__11_2_1
-msgid "11.2.1 - Prémios do bingo"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__11_2_2
-msgid ""
-"11.2.2 - Prémios de rifas, do jogo do loto, bem como de quaisquer sorteios "
-"ou concursos"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__11_3
-msgid "11.3 - Jogos sociais do Estado ' (apostas) '"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__11_4
-msgid "11.4 - Jogos sociais do Estado (prémio> 5.000,00€)"
 msgstr ""
 
 #. module: ptplus
@@ -351,81 +294,10 @@ msgid "17 - Rendimentos de artistas ou desportistas"
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_1_1
-msgid "17.1.1 - Utilização de crédito - Prazo <1 ano"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_1_2
-msgid "17.1.2 - Utilização de crédito - Prazo ≥ 1 ano"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_1_3
-msgid "17.1.3 - Utilização de crédito - Prazo ≥ 5 anos"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_1_4
-msgid ""
-"17.1.4 - Utilização de crédito - Conta corrente / descoberto / prazo "
-"indeterminado ou indeterminável"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_2_1
-msgid "17.2.1 - Utilização de crédito - Prazo <1 ano"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_2_2
-msgid "17.2.2 - Utilização de crédito - Prazo ≥ 1 ano"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_2_3
-msgid "17.2.3 - Utilização de crédito - Prazo ≥ 5 anos"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_2_4
-msgid ""
-"17.2.4 - Utilização de crédito - Conta corrente/descoberto/prazo "
-"indeterminado ou indeterminável"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_3_1
-msgid "17.3.1 - Juros"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_3_2
-msgid "17.3.2 - Prémios e juros"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_3_3
-msgid "17.3.3 - Comissões por garantias prestadas"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__17_3_4
-msgid ""
-"17.3.4 - Outras comissões e contraprestações por serviços financeiros, "
-"incluindo as taxas relativas a operações de pagamento baseadas em cartões"
-msgstr ""
-
-#. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_exemption_reason__18
 msgid ""
 "18 - Jogo do bingo e jogos organizados por instit. de solid. social e afins "
 "- CIS Artº 7º nº1 p)"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__18
-msgid "18 - Precatórios e mandatos"
 msgstr ""
 
 #. module: ptplus
@@ -449,11 +321,6 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_code__199
 msgid "199 - Juros compensatórios"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__2
-msgid "2 - Arrendamento e subarrendamento"
 msgstr ""
 
 #. module: ptplus
@@ -533,11 +400,6 @@ msgid ""
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__21
-msgid "21 - Reporte"
-msgstr ""
-
-#. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_code__210
 msgid ""
 "210 - Rendim. de resgate de Unid. Partic. Fundos de Invest. Imob. (...)"
@@ -573,38 +435,6 @@ msgid ""
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__22_1_1
-msgid "22.1.1 - Seguros do ramo «caução»"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__22_1_2
-msgid ""
-"22.1.2 - Seguros dos ramos «acidentes», «doenças», «crédito» e «agrícola e "
-"pecuário»"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__22_1_3
-msgid "22.1.3 - Seguros do ramo «mercadorias transportadas»"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__22_1_4
-msgid "22.1.4 - Seguros de embarcações e de aeronaves"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__22_1_5
-msgid "22.1.5 - Seguros de outros ramos"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__22_2
-msgid "22.2 - Seguros - comissões de mediação"
-msgstr ""
-
-#. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_taxation_regime__23
 msgid "23 - Fundos de poupança-reforma e planos de poupança reforma (...)"
 msgstr ""
@@ -612,26 +442,6 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_income_type_oecd__23
 msgid "23 - Pensões públicas"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__23_1
-msgid "23.1 - Letras"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__23_2
-msgid "23.2 - Livranças"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__23_3
-msgid "23.3 - Ordens e escritos de qualquer natureza (excluindo cheques)"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__23_4
-msgid "23.4 - Extratos de faturas/faturas conferidas"
 msgstr ""
 
 #. module: ptplus
@@ -658,18 +468,6 @@ msgid "27 - Insolvência e da Recuperação de Empresas - CIRE Artº 269º"
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__27_1
-msgid "27.1 - Trespasses de estabelecimento comercial, industrial ou agrícola"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__27_2
-msgid ""
-"27.2 - Subconcessões e trespasses de concessões feitos pelo Estado, pelas "
-"Regiões Autónomas ou pelas autarquias locais"
-msgstr ""
-
-#. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_exemption_reason__28
 msgid "28 - Operações de titularização de créditos - DL nº 219/2001 4-Ago"
 msgstr ""
@@ -681,18 +479,6 @@ msgid ""
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__29_1
-msgid ""
-"29.1 - Organismos de investimento coletivo que invistam, exclusivamente, em "
-"instrumentos do mercado monetário e depósitos"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__29_2
-msgid "29.2 - Outros organismos de investimento coletivo"
-msgstr ""
-
-#. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_code__299
 msgid "299 - Juros compensatórios"
 msgstr ""
@@ -701,11 +487,6 @@ msgstr ""
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_exemption_reason__3
 msgid ""
 "3 - Pessoas coletivas com estatuto de utilidade pública - CIS Artº 6º c)"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__30
-msgid "30 - Criptoativos"
 msgstr ""
 
 #. module: ptplus
@@ -911,11 +692,6 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_wh_code__399
 msgid "399 - Juros compensatórios"
-msgstr ""
-
-#. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__4
-msgid "4 - Cheques"
 msgstr ""
 
 #. module: ptplus
@@ -1245,7 +1021,9 @@ msgstr ""
 
 #. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__active
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__active
 #: model_terms:ir.ui.view,arch_db:ptplus.fiscal_document_type_view_search
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
 msgid "Active"
 msgstr ""
 
@@ -1275,6 +1053,11 @@ msgid "Activity Type Icon"
 msgstr ""
 
 #. module: ptplus
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__amount
+msgid "Amount"
+msgstr ""
+
+#. module: ptplus
 #: model:ir.model.fields,help:ptplus.field_wizard_webservice_series_comm__finalize_justification
 msgid ""
 "An optional field where you can explain the reason for not using the series "
@@ -1297,6 +1080,7 @@ msgstr ""
 
 #. module: ptplus
 #: model_terms:ir.ui.view,arch_db:ptplus.fiscal_document_type_view_form
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_form
 msgid "Archived"
 msgstr ""
 
@@ -1493,6 +1277,7 @@ msgid "Closed"
 msgstr ""
 
 #. module: ptplus
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__code
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__error_code
 #: model_terms:ir.ui.view,arch_db:ptplus.wizard_webservice_series_comm_form
 msgid "Code"
@@ -1645,6 +1430,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__create_uid
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__create_uid
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__create_uid
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__create_uid
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__create_uid
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_series_comm__create_uid
 msgid "Created by"
@@ -1655,6 +1441,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__create_date
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__create_date
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__create_date
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__create_date
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__create_date
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_series_comm__create_date
 msgid "Created on"
@@ -1785,7 +1572,9 @@ msgstr ""
 
 #. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_account_tax__description
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__description
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__description
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_form
 msgid "Description"
 msgstr ""
 
@@ -1813,6 +1602,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__display_name
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__display_name
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__display_name
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__display_name
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__display_name
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_series_comm__display_name
 msgid "Display Name"
@@ -2338,6 +2128,11 @@ msgid "Fiscal document status is required on document %s"
 msgstr ""
 
 #. module: ptplus
+#: model:ir.model.fields.selection,name:ptplus.selection__l10n_pt_stamp_duty_code__amount_type__fixed
+msgid "Fixed"
+msgstr ""
+
+#. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__message_follower_ids
 msgid "Followers"
 msgstr ""
@@ -2462,6 +2257,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__id
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__id
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__id
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__id
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__id
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_series_comm__id
 msgid "ID"
@@ -3212,6 +3008,7 @@ msgstr ""
 
 #. module: ptplus
 #: model_terms:ir.ui.view,arch_db:ptplus.fiscal_document_type_view_search
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
 msgid "Inactive"
 msgstr ""
 
@@ -3404,8 +3201,8 @@ msgid "Is Follower"
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields.selection,name:ptplus.selection__account_tax__l10n_pt_sd_tax_type__ise
-msgid "Isento"
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__is_group
+msgid "Is Group"
 msgstr ""
 
 #. module: ptplus
@@ -3474,6 +3271,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__write_uid
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__write_uid
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__write_uid
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__write_uid
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__write_uid
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_series_comm__write_uid
 msgid "Last Updated by"
@@ -3484,6 +3282,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__write_date
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__write_date
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__write_date
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__write_date
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_failure__write_date
 #: model:ir.model.fields,field_description:ptplus.field_wizard_webservice_series_comm__write_date
 msgid "Last Updated on"
@@ -3772,6 +3571,7 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_dataport_log__name
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__name
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__name
 msgid "Name"
 msgstr ""
 
@@ -4258,6 +4058,11 @@ msgid "Pequenos Retalhistas"
 msgstr ""
 
 #. module: ptplus
+#: model:ir.model.fields.selection,name:ptplus.selection__l10n_pt_stamp_duty_code__amount_type__percent
+msgid "Percentage"
+msgstr ""
+
+#. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_dataport_export__period
 #: model:ir.model.fields,field_description:ptplus.field_dataport_import__period
 #: model:ir.model.fields,field_description:ptplus.field_dataport_mixin__period
@@ -4455,6 +4260,11 @@ msgstr ""
 #. module: ptplus
 #: model:account.account.tag,name:ptplus.tax_tag_rf_dar
 msgid "RF DAR"
+msgstr ""
+
+#. module: ptplus
+#: model:account.account.tag,name:ptplus.tax_tag_rf_dar_base
+msgid "RF DAR BASE"
 msgstr ""
 
 #. module: ptplus
@@ -4687,6 +4497,7 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model,name:ptplus.model_ir_sequence
 #: model:ir.model.fields,field_description:ptplus.field_fiscal_document_type__sequence_id
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__sequence
 msgid "Sequence"
 msgstr ""
 
@@ -4834,8 +4645,18 @@ msgid "Show active document types"
 msgstr ""
 
 #. module: ptplus
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
+msgid "Show active stamp duty codes"
+msgstr ""
+
+#. module: ptplus
 #: model_terms:ir.ui.view,arch_db:ptplus.fiscal_document_type_view_search
 msgid "Show inactive document types"
+msgstr ""
+
+#. module: ptplus
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
+msgid "Show inactive stamp duty codes"
 msgstr ""
 
 #. module: ptplus
@@ -4845,6 +4666,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_res_company__l10n_pt_invoice_show_goods_provision
 #: model:ir.model.fields,field_description:ptplus.field_res_config_settings__l10n_pt_invoice_show_goods_provision
 msgid "Show the goods provision date"
+msgstr ""
+
+#. module: ptplus
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
+msgid "Show usable stamp duty codes"
 msgstr ""
 
 #. module: ptplus
@@ -4885,6 +4711,26 @@ msgid "Stamp Duty"
 msgstr ""
 
 #. module: ptplus
+#: model:ir.model.fields,field_description:ptplus.field_account_tax__l10n_pt_sd_code_id
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_form
+#: model_terms:ir.ui.view,arch_db:ptplus.view_tax_form_pt
+msgid "Stamp Duty Code"
+msgstr ""
+
+#. module: ptplus
+#: model:ir.model.fields,field_description:ptplus.field_account_tax__l10n_pt_sd_code
+msgid "Stamp Duty Code (read-only)"
+msgstr ""
+
+#. module: ptplus
+#: model:ir.actions.act_window,name:ptplus.l10n_pt_stamp_duty_code_action_list
+#: model:ir.model,name:ptplus.model_l10n_pt_stamp_duty_code
+#: model:ir.ui.menu,name:ptplus.menu_action_l10n_pt_stamp_duty_code_list
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
+msgid "Stamp Duty Codes"
+msgstr ""
+
+#. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_account_tax__l10n_pt_sd_exemption_reason
 msgid "Stamp Duty Exemption Reason"
 msgstr ""
@@ -4895,13 +4741,12 @@ msgid "Stamp Duty Exemption Reason Text"
 msgstr ""
 
 #. module: ptplus
-#: model:ir.model.fields,field_description:ptplus.field_account_tax__l10n_pt_sd_tax_type
-msgid "Stamp Duty Tax Type"
-msgstr ""
-
-#. module: ptplus
-#: model_terms:ir.ui.view,arch_db:ptplus.view_tax_form_pt
-msgid "Stamp Duty Type"
+#. odoo-python
+#: code:addons/ptplus/models/account_tax.py:0
+#, python-format
+msgid ""
+"Stamp duty code %(code)s corresponds to a group and shouldn't be directly "
+"used. Please choose another"
 msgstr ""
 
 #. module: ptplus
@@ -5060,6 +4905,11 @@ msgstr ""
 #. module: ptplus
 #: model:ir.model.fields,field_description:ptplus.field_res_users__tax_auth_username
 msgid "Tax Authority Username"
+msgstr ""
+
+#. module: ptplus
+#: model:ir.model.fields,field_description:ptplus.field_l10n_pt_stamp_duty_code__amount_type
+msgid "Tax Computation"
 msgstr ""
 
 #. module: ptplus
@@ -5321,6 +5171,11 @@ msgid "The series validation code must have at least 8 characters"
 msgstr ""
 
 #. module: ptplus
+#: model:ir.model.constraint,message:ptplus.constraint_l10n_pt_stamp_duty_code_code_uniq
+msgid "The stamp duty code must be unique."
+msgstr ""
+
+#. module: ptplus
 #. odoo-python
 #: code:addons/ptplus/wizards/dataport_import.py:0
 #, python-format
@@ -5507,6 +5362,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:ptplus.field_account_move__l10n_pt_unloading_time
 #: model:ir.model.fields,field_description:ptplus.field_account_payment__l10n_pt_unloading_time
 msgid "Unloading Date/Hour"
+msgstr ""
+
+#. module: ptplus
+#: model_terms:ir.ui.view,arch_db:ptplus.l10n_pt_stamp_duty_code_view_search
+msgid "Usable"
 msgstr ""
 
 #. module: ptplus

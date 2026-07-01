@@ -10,10 +10,11 @@
     "author": "Exo Software",
     "website": "https://exosoftware.pt",
     "category": "Localization",
-    "version": "17.0.5.1.1",
+    "version": "17.0.5.1.5",
     "depends": [
         "ptplus_saft",
         "stock_picking_invoice_link",
+        "sale_stock",
     ],
     "data": [
         "security/ir.model.access.csv",
@@ -25,6 +26,7 @@
         "views/stock_picking_views.xml",
         "views/product_views.xml",
         "views/fiscal_document_views.xml",
+        "views/stock_move_line_views.xml",
         # "wizards/webservice_failure.xml",
         "wizards/wizard_inventory_statement.xml",
     ],

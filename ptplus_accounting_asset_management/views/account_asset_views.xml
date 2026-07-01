@@ -31,12 +31,12 @@
                 <field
                     name="l10n_pt_legal_rate_id"
                     invisible="country_code != 'PT'"
-                    readonly="country_code == 'PT'"
+                    required="country_code == 'PT'"
                 />
                 <field
                     name="l10n_pt_asset_type"
                     invisible="country_code != 'PT'"
-                    readonly="country_code == 'PT'"
+                    required="country_code == 'PT'"
                 />
                 <field
                     name="l10n_pt_acquisition_production_value"

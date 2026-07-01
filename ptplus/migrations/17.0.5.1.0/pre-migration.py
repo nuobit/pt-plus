@@ -200,7 +200,7 @@ def migrate(env, version):
     temp_m30tax = get_or_create_tag(env, "TMP M30T")
 
     # DM
-    filter = "RF DM [ ]%"
+    filter = "RF DM [ ]%"  # pylint: disable=W0622
     delete_tags(env, "base", select_tags(env, filter))
     replace_tags(env, "tax", select_tags(env, filter), temp_dm)
 

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
+
     <template id="l10n_pt_report_annual_statement_document">
-        <t t-set="partners" t-value="docs.mapped('partner_id')" />
-        <t t-set="statement" t-value="docs[0].statement_id" />
+        <t
+            t-set="partners"
+            t-value="docs.env.context.get('partner', False) or docs[0].line_ids.mapped('partner_id')"
+        />
+        <t t-set="statement" t-value="docs[0]" />
         <t t-call="web.external_layout" t-foreach="partners" t-as="partner">
             <!--<t t-set="o" t-value="o.with_context(lang=o.partner_id.lang)" />-->
             <div class="row">
@@ -20,23 +24,16 @@
                 </div>
             </div>
             <div class="page">
-                <br />
-                <br />
-                <h3>Income Statement for <span
-                        t-out="statement.get_period_text()"
-                    /></h3>
-                <br />
-                <br />
-                <br />
-                <br />
+                <br /><br />
+                <h3>Income Statement for <span t-out="docs[0].get_period_text()" /></h3>
+                <br /><br /><br /><br />
                 <p>
                     We hereby declare, for IRS/IRC purposes and in accordance with
                     Article 119(1)(b) of the Personal Income Tax Code, that the income
                     received by you, as well as the respective withholdings, were as
                     follows:
                 </p>
-                <br />
-                <br />
+                <br /><br />
                 <table class="table table-sm o_main_table" style="font-size: 10pt;">
                     <thead>
                         <tr>
@@ -48,21 +45,20 @@
                     </thead>
                     <tbody>
                         <tr
-                            t-foreach="statement.line_ids.filtered(lambda r: r.partner_id == partner and r.income_category_code != 'DAR')"
+                            t-foreach="docs[0].line_ids.filtered(lambda r: r.partner_id == partner and r.income_category_code != 'DAR')"
                             t-as="l"
                         >
-                            <td class="text-start">
-                                <span t-field="l.income_category" />
-                            </td>
-                            <td class="text-end">
-                                <span t-field="l.income_amount" />
-                            </td>
-                            <td class="text-end">
-                                <span t-field="l.withhold_amount" />
-                            </td>
+                            <td class="text-start"><span
+                                    t-field="l.income_category"
+                                /></td>
+                            <td class="text-end"><span t-field="l.income_amount" /></td>
+                            <td class="text-end"><span
+                                    t-field="l.withhold_amount"
+                                /></td>
                         </tr>
                     </tbody>
                 </table>
+
             </div>
         </t>
     </template>
@@ -74,4 +70,5 @@
             />
         </t>
     </template>
+
 </odoo>
