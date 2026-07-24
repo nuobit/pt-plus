@@ -32,6 +32,35 @@ Known issues / Roadmap
 Changelog
 =========
 
+4.1.8 (2026-07-23)
+~~~~~~~~~~~~~~~~~~~
+
+**Bugfixes**
+
+- Recompute the payment SAF-T element when the payment is (un)reconciled: on
+  real-time companies the element was computed at issuing, before the register
+  payment wizard reconciles it with the invoice, and stayed cached empty — the
+  payment then silently disappeared from the SAF-T Payments section until a
+  manual "Recompute elements" export.
+
+4.1.7 (2026-07-14)
+~~~~~~~~~~~~~~~~~~~
+
+**Improvement**
+
+- Remove the legacy "Extraction" SAF-T computing method; companies still
+  using it are migrated to "Real-time".
+
+**Bugfixes**
+
+- Include the GeneralLedgerEntries section in the Accounting and Integrated
+  files, placed before SourceDocuments as the schema requires.
+- Don't drop the Customer/Supplier/Product master files when the file has no
+  TaxTable (e.g. Accounting exports).
+- Read the branches' journal entries when exporting from the root company.
+- Declare stamp-duty charge lines (product configured as stamp duty) with
+  the line's NS tax and exemption M99.
+
 4.1.6 (2026-07-01)
 ~~~~~~~~~~~~~~~~~~~
 
