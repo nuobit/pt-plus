@@ -15,22 +15,23 @@ def migrate(env, version):
     # company.chart_template cannot be used to scope here: at this point of the
     # 16->17 migration vendor chart codes are not remapped yet and read NULL,
     # so the company country is the stable marker.
-    env.cr.execute(
+    #
+    # The swap is SQL over the WHOLE translation jsonb, never the ORM: an ORM
+    # read/write pair (tax.description / tax.invoice_label) resolves in the
+    # context language only, so every OTHER language's variant is dropped on
+    # write. Both columns are jsonb at this point of the migration, and in an
+    # UPDATE the right-hand side reads the OLD row values, so the two
+    # assignments are a true simultaneous swap with every language preserved.
+    openupgrade.logged_query(
+        env.cr,
         """
-        SELECT c.id
-        FROM res_company c
-        JOIN res_partner p ON p.id = c.partner_id
-        JOIN res_country co ON co.id = p.country_id
-        WHERE co.code = 'PT'
-        """
+        UPDATE account_tax t
+           SET description = t.invoice_label,
+               invoice_label = t.description
+          FROM res_company c
+          JOIN res_partner p ON p.id = c.partner_id
+          JOIN res_country co ON co.id = p.country_id
+         WHERE c.id = t.company_id
+           AND co.code = 'PT'
+        """,
     )
-    pt_company_ids = [r[0] for r in env.cr.fetchall()]
-    if not pt_company_ids:
-        return
-    taxes = (
-        env["account.tax"]
-        .with_context({"active_test": False})
-        .search([("company_id", "in", pt_company_ids)])
-    )
-    for tax in taxes:
-        tax.write({"invoice_label": tax.description, "description": tax.invoice_label})
