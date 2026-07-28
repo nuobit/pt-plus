@@ -10,5 +10,7 @@ field_renames = [
 
 @openupgrade.migrate()
 def migrate(env, version):
-    if "code" in env["res.bank"]._fields:
+    if "code" in env["res.bank"]._fields and not openupgrade.column_exists(
+        env.cr, "res_bank", "l10n_pt_code"
+    ):
         openupgrade.rename_fields(env, field_renames)
