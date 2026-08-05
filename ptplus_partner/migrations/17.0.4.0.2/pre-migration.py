@@ -7,5 +7,7 @@ field_renames = [
 
 @openupgrade.migrate()
 def migrate(env, version):
-    if not "l10n_pt_legal_name" in env["res.partner"]._fields:  # noqa: E713
+    if "l10n_pt_legal_name" not in env["res.partner"]._fields and not (
+        openupgrade.column_exists(env.cr, "res_partner", "l10n_pt_legal_name")
+    ):
         openupgrade.rename_fields(env, field_renames)
